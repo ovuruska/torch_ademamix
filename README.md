@@ -1,6 +1,6 @@
 # AdEMAMix Optimizer
 
-![PyPI](https://img.shields.io/pypi/v/adememix) ![License](https://img.shields.io/github/license/ovuruska/torch_ademamix/adememix)
+![PyPI](https://img.shields.io/pypi/v/ademamix) ![License](https://img.shields.io/github/license/ovuruska/torch_ademamix)
 ## Overview
 
 AdEMAMix is a optimizer that builds upon the widely-used AdamW algorithm, introducing two Exponential Moving Averages (EMAs) of past gradients for enhanced historical data utilization. This approach enables faster convergence and lower training minima, particularly beneficial for large-scale models like LLMs and image classification tasks. For a comprehensive understanding of AdEMAMix, including its methodology and performance benchmarks, refer to the original paper: "The AdEMAMix Optimizer: Better, Faster, Older" by Matteo Pagliardini, Pierre Ablin, and David Grangier, available at [https://arxiv.org/abs/2409.03137](https://arxiv.org/abs/2409.03137).
@@ -15,7 +15,7 @@ AdEMAMix is a optimizer that builds upon the widely-used AdamW algorithm, introd
 You can install the package via PyPI:
 
 ```bash
-pip install adememix
+pip install ademamix
 ```
 
 Alternatively, you can clone the repository and install it manually:
